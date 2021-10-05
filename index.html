@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cascading Style Sheet</title>
-    <style>
-    		h2 {
-    			color: green;
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cascading Style Sheet</title>
+	<style>
+		h2 {
 
-    		}
-    </style>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" 
+			color: green;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-   <!-- navbar -->
-   	<nav id="top">
-   		<a href="#landing">Centro Escolar University</a>
-   		<div>
-   			<a href="#landing">Home</a
-   			<a href="#register">Register</a>
-   		</div>
-   	</nav>
-   	<!-- end of navbar for comment ctrl + / -->
-   	<h1>Hello World!</h1>
-   	<section id="landing">
-		<h2>Wekcome too Centro Escolar University</h2>
-		<!-- ids are unique identifiers of an elemenet -->
-		<h3 id="ceu-motto">Ciencia y Virtud</h3>  
-		<!-- image of puppy -->
-		<img src="https://place-puppy.com/300x300" alt="puppy">
+	<nav id="top">
+		<a href="#landing"> Centro Escolar University </a>
+		<div>
+			<a href="#landing"> Home </a>
+			<a href="#register"> Register
+			</a>
 
+		</div>
+	</nav>
+
+	<h1>Hello world! </h1>
+	<section id="landing">
+		<h2> Welcome to Centro Escolar University </h2>
+		<h3 id="ceu-motto"> Ciencia y Virtud </h3>
+
+		<img src="assets/images folder/download.jpg" alt= "ceu">
 		<ol id="learning-list">
-			<li class= "offering-item">Intro to Computing</li>
-			<li class="offering-item">Data Analytics</li>
-			<li class="offering-item">Game DEvelopment</li>
+			<li class="offering-item"> Intro to computing</li>
+			<li class="offering-item"> Data Analytics</li>
+			<li class="offering-item"> Game Development</li>
 		</ol>
 
-		<a href="#top">Back to top</a>
-   	</section>
-<!-- end of section -->
-
+		<a href="#top"> Back to Top </a>
+	</section>
 
 	<section id="register">
-		<h2>Register</h2>
+		<h2> Register </h2>
 		<form>
-			<label for="first-name">First Name:</label>
-			<input type="text" id="first-name" required autocomplete />
+			<label for=""> First Name: </label>
+			<input type="text" id="first name" required autocomplete />
 			
-			<label for="last-name">Last Name:</label>
-			<input type="text" id="last-name" required autocomplete />
+			<label for=""> Last Name: </label>
+			<input type="text" id="last name" required autocomplete />
+		
+			<label for=""> Email Address: </label>
+			<input type="text" id="email" required autocomplete />
 
-			<label for="email">Email Address:</label>
-			<input type="email" id="email" required autocomplete />
-
-			<button type="submit">Enroll Now!</button>
-
+			<button type="submit"> Enroll Now!</button>
+			<br>
+			<br>
+			<a href="#top"> Back to Top </a>
 		</form>
-		<a href="#top">Back to Top</a>
 	</section>
 </body>
 </html>
